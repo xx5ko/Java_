@@ -1,8 +1,5 @@
 package com.company.Exams;
-import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
-
 import java.util.Scanner;
-import java.text.*;
 
 public class Vacancion {
     public static void main(String[] args) {
@@ -13,7 +10,6 @@ public class Vacancion {
         int students = Integer.parseInt(console.nextLine());
         int nights = Integer.parseInt(console.nextLine());
         String transport = console.nextLine().toLowerCase();
-        double studentPrice = 0;
         double priceStudents = 0;
         double priceInfants = 0;
 
@@ -28,8 +24,8 @@ public class Vacancion {
                 if (totalPeople >= 50) {
                     priceInfants = 24.99 - (24.99 * 0.5);
                     priceStudents = 14.99 - (14.99 * 0.5);
-                    break;
                 }
+                break;
 
             case "bus":
                 priceInfants = 32.50;
@@ -37,7 +33,7 @@ public class Vacancion {
                 break;
 
 
-            case "ship":
+            case "boat":
                 priceInfants = 42.99;
                 priceStudents = 39.99;
                 break;
