@@ -1,4 +1,4 @@
-package Basics;
+package com.company.Basics;
 
 public class Expression {
     public static void main (String[] args) {

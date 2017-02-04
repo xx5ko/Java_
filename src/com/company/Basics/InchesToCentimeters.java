@@ -1,5 +1,5 @@
 
-package Basics;
+package com.company.Basics;
 import java.util.Scanner;
 
 public class InchesToCentimeters {
