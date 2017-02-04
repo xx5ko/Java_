@@ -26,6 +26,7 @@ public class Logistics {
             } else if (tonsToShip >= 12) {
                 train = train + tonsToShip;
             }
+
             totalTons = totalTons + tonsToShip;
         }
 
